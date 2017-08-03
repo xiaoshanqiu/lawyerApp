@@ -1,0 +1,168 @@
+@import "iconfont";
+@import "variables";
+@import "normalize";
+@import "mixins";
+
+ul{
+	margin: 0;
+	padding: 0;
+	li{
+		list-style: none;
+	}
+}
+
+a{
+	text-decoration: none;
+}
+
+.clearfix {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+
+select{
+  -webkit-appearance: none;
+}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+  position: relative;
+  margin: 0;
+  line-height: $line-height-base;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  color: $text-color;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    // color: $link-hover-color;
+    outline: none;
+  }
+}
+
+.wrapper{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 1200px;
+}
+
+p{
+  margin: 0;
+}
+
+
+.top{
+  width: 100%;
+  line-height: 43px;
+  font-size: 16px;
+  background: $brand;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  a{
+    position: absolute;
+    left: 12px;
+    text-decoration: none;
+    color: #fff;
+  }
+  span{
+    position: absolute;
+    right: 12px;
+  }
+}
+
+
+.search{
+  background: $brand;
+  .content{
+    padding: 24px 12px;
+    position: relative;
+    .txt{
+      background: $white;
+      border-radius: 4px;
+      input{
+        padding: 12px;
+        margin-left: 10px;
+        width: 80%;
+        border: none;
+        outline: none;
+      }
+    }
+    i{
+      color: #000;
+      position: absolute;
+      right: 20px;
+      top: 35px;
+    }
+    .hot{
+      line-height: 36px;
+      span{
+        color: $white;
+        float: left;
+        font-size: 13px;
+        margin-left: 24px;
+      }
+      li{
+        float: left;
+        padding: 0 11px;
+        a{
+          border-bottom: 1px solid #fff;  
+          color: $white;
+          font-size: 13px;
+        }
+      }
+    
+    }
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2){
+  .border1px{
+    &:after{
+      transform: scaleY(0.7)
+    }
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3){
+   .border1px{
+     &:after{
+      transform: scaleY(0.5)
+    }
+  }
+}

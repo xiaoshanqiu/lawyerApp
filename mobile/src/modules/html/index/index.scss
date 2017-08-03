@@ -1,0 +1,54 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+body{
+	background: #f8f8f8;
+}
+.content{
+	width: 100%;
+	background: #fff;
+	li{
+		padding: 25px 12px 0 12px;
+		.border1px{
+			@include border1px (#ddd);
+			a{
+				padding-bottom: 25px;
+				display:block;
+				&:last-child{
+					&:after{
+						display: none;
+					}
+				}
+				.all-spa{
+					padding-left: 40px;
+					margin-left: 12px;
+					margin-right: 26px;
+					.spa1{
+						font-size: 18px;
+					}
+				}
+				h2{
+					position: absolute;
+					right: 12px;
+					top: -8px;
+				}
+				.iconfont{
+					font-size: 33px;
+					margin-left: 12px;
+				}
+				.icon1{
+					color: #f18c48;
+				}
+				.icon2{
+					color:#9aee46;
+				}
+				.icon3{
+					color:#eb5748;
+				}
+				.icon4{
+					color:#49b4f1;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.close{
+		border-bottom: 1px solid #ddd;
+	span{
+		margin-right: 20px;
+	}
+	p{
+		padding: 0 25px;
+		margin-top: 30px;
+	}
+}
