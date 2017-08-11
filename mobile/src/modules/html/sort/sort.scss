@@ -1,0 +1,42 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.sort-list{
+	background-color: pink;
+	ul{
+		background-color: yellow;
+		min-width: 300px;
+		li{
+			float: left;
+			width: 33.33%;
+			text-align: center;
+			a{
+				display: block;
+				padding: 25px 0;
+				width: 100%;
+				background-color: pink;
+			}
+		}
+	}
+}
+
+// .sort-list{
+// 		background: pink;
+// 		ul{
+// 			min-width: 300px;
+// 		}
+// 		ul li{
+// 			box-sizing: border-box;
+// 			float: left;
+// 			// padding:0 10px;
+// 			text-align: center;
+// 		}
+// 		a{
+// 			width: 33.33%;
+// 			// padding: 25px 35px;
+// 			background: #f8f8f8;
+// 			display: block;
+// 		}
+// 		span{
+// 		}
+// }

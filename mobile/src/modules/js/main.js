@@ -1,5 +1,3 @@
-
-
 var banner = {
 	init:function(){
 		require(['jquery','swiper'],function($,swiper){

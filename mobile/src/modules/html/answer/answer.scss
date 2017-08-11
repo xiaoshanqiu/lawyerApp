@@ -1,0 +1,114 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.question{
+	padding: 12px 25px 0 25px;
+	.questions{
+		padding-bottom: 12px;
+		border-bottom: 1px dashed #ddd;
+		.num-img{
+			span{
+				display: inline-block;
+			}
+			.imgs{
+				height: 30px;
+				width: 30px;
+				line-height: 30px;
+				border-radius: 50%;
+				font-size: 15px;
+				text-align: center;
+				color: #fff;
+				background-color: #3a5fd2;
+			}
+			.num{
+				color: #7e96e0;
+			}
+		}
+		.ask{
+			margin-top: 10px;
+			line-height: 20px;
+			p{
+				margin-top: 7px;
+				line-height: 16px;
+				color: #7b7b7b;
+			}
+		}
+		.text{
+			display: inline-block;
+			margin-top: 10px;
+			padding: 3px  14px;
+			line-height: 20px;
+			border-radius: 10px;
+			color: #5e7cda;
+			background-color: #edf0fa;
+		}
+	}
+	.second{
+		span{
+			color: #7b7b7b;
+			i{
+				font-size: 14px;
+				margin-right: 2px;
+			}
+			.icon-dianzan{
+				color: #ef4630;
+			}
+		}
+		.spa1{
+			line-height: 38px;
+			margin-left: 12px;
+		}
+		.spa2{
+			margin-left: 25px;
+			line-height: 38px;
+			color: #ef4630;
+		}
+		.heart{
+			margin-top: 8px;
+			padding: 5px 8px;
+			font-size: 13px;
+			border-radius: 2px;
+			color: #fff;
+			background-color: #ef4630;
+
+		}
+	}
+}
+
+.answer{
+	padding: 12px 25px 20px 25px;
+	margin-top: 8px;
+	.num-img{
+		margin-top: 17px;
+		span{
+			display: inline-block;
+			vertical-align: top;
+
+		}
+		.imgs{
+			height: 30px;
+			width: 30px;
+			line-height: 30px;
+			border-radius: 50%;
+			overflow: hidden;
+			img{
+				width: 100%;
+			}
+		}
+		.name{
+			font-size: 15px;
+			margin-left: 10px;
+			margin-top: 5px;
+		}
+	}
+	p{
+		margin-top: 7px;
+		padding-bottom: 13px;
+		line-height: 20px;
+		color: #7b7b7b;
+		border-bottom: 1px dashed #ddd;
+		a{
+			color: #a3b4ea;
+		}
+	}
+}
