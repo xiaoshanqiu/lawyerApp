@@ -4,39 +4,31 @@
 .sort-list{
 	background-color: pink;
 	ul{
-		background-color: yellow;
 		min-width: 300px;
+		background-color: #f8f8f8;
 		li{
 			float: left;
-			width: 33.33%;
+			width: 33.1%;
 			text-align: center;
+			border-bottom: 1px solid #ddd;
+			border-right: 1px solid #ddd;
+			&:last-child{
+			border-right: none;
+			}
 			a{
 				display: block;
 				padding: 25px 0;
 				width: 100%;
-				background-color: pink;
+				background-color: #f8f8f8;
+				p{
+					font-size: 15px;
+					font-weight: bold;
+				}
+				span{
+					font-size: 14px;
+					line-height: 25px;
+				}
 			}
 		}
 	}
 }
-
-// .sort-list{
-// 		background: pink;
-// 		ul{
-// 			min-width: 300px;
-// 		}
-// 		ul li{
-// 			box-sizing: border-box;
-// 			float: left;
-// 			// padding:0 10px;
-// 			text-align: center;
-// 		}
-// 		a{
-// 			width: 33.33%;
-// 			// padding: 25px 35px;
-// 			background: #f8f8f8;
-// 			display: block;
-// 		}
-// 		span{
-// 		}
-// }
