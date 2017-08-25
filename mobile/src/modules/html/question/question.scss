@@ -1,104 +1,107 @@
 @import "variables.scss";
 @import "mixins.scss";
 
-.close{
-	padding: 15px 25px;
-	.title{
-		border-bottom: 1px solid #ddd;
-		span{
-			margin-right: -10px;
-		}
-		p{
-			font-size: 15px;
-			margin-top: 30px;
-		}
-	}
-}
 
-.content{
-	padding: 0 20px;
-	#tex{
-		width: 100%;
-		height: 118px;
-		margin-bottom: 10px;
-	}
-	span{
-		display: inline-block;
-		margin-bottom: 10px;
-		color: #ee9844;
-	}
-	.text{
-		padding: 3px  14px;
-		line-height: 20px;
-		border-radius: 10px;
-		border: 1px solid #ee9844;
-	}
-	.side{
-		margin-left: 245px;
-		.submit{
-			padding: 8px 12px;
-			margin-bottom: 20px;
-			color: #fff;
-			background-color: #ee9844;
-		}
-	}
-}
-
-.online{
-	padding-left: 30px;
-	line-height: 45px;
-	font-size: 17px;
-	background-color: #f2f2f2;
-}
-
-.card{
-	padding: 25px 30px;
-	display: flex;
-	.pic{
-		flex:0 0 120px;
-		margin-right: 13px;
-		border-radius: 50%;
-		img{
-			width: 100%;
-			border-radius: 50%;
-		}
-	}
-	.year{
-		flex:1;
-		p{
-			display: inline-block;
-			font-size: 20px;
-			font-weight: bold;
+.question-xsq{
+	.close{
+		padding: 15px 25px;
+		.title{
+			border-bottom: 1px solid #ddd;
 			span{
-				margin-left: 8px;
-				font-size: 13px;
-				font-weight: bold;
+				margin-right: -10px;
+			}
+			p{
+				font-size: 15px;
+				margin-top: 30px;
 			}
 		}
-		p:before{
-			display: inline-block;
-			margin-right: 9px;
-			content: " ";
-			height: 13px;
-			width: 6px;
-			background-color: #ef4630;
+	}
+
+	.content{
+		padding: 0 20px;
+		#tex{
+			width: 100%;
+			height: 118px;
+			margin-bottom: 10px;
 		}
-		.week{
-			display: block;
-			line-height: 25px;
-			font-size: 15px;
-			color: #8a8a8a;
-		}
-		.answer{
+		span{
 			display: inline-block;
-			margin-top: 7px;
-			border-radius: 2px;
-			background-color: #ea7e15;
-			a{
-				display: block;
-				padding: 9px 13px;
-				line-height: 25px;
+			margin-bottom: 10px;
+			color: #ee9844;
+		}
+		.text{
+			padding: 3px  14px;
+			line-height: 20px;
+			border-radius: 10px;
+			border: 1px solid #ee9844;
+		}
+		.side{
+			margin-left: 245px;
+			.submit{
+				padding: 8px 12px;
+				margin-bottom: 20px;
 				color: #fff;
+				background-color: #ee9844;
+			}
+		}
+	}
+
+	.online{
+		padding-left: 30px;
+		line-height: 45px;
+		font-size: 17px;
+		background-color: #f2f2f2;
+	}
+
+	.card{
+		padding: 25px 30px;
+		display: flex;
+		.pic{
+			flex:0 0 120px;
+			margin-right: 13px;
+			border-radius: 50%;
+			img{
+				width: 100%;
+				border-radius: 50%;
+			}
+		}
+		.year{
+			flex:1;
+			p{
+				display: inline-block;
+				font-size: 20px;
+				font-weight: bold;
+				span{
+					margin-left: 8px;
+					font-size: 13px;
+					font-weight: bold;
+				}
+			}
+			p:before{
+				display: inline-block;
+				margin-right: 9px;
+				content: " ";
+				height: 13px;
+				width: 6px;
+				background-color: #ef4630;
+			}
+			.week{
+				display: block;
+				line-height: 25px;
+				font-size: 15px;
+				color: #8a8a8a;
+			}
+			.answer{
+				display: inline-block;
+				margin-top: 7px;
+				border-radius: 2px;
+				background-color: #ea7e15;
+				a{
+					display: block;
+					padding: 9px 13px;
+					line-height: 25px;
+					color: #fff;
+				}
 			}
 		}
 	}

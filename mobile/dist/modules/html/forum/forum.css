@@ -1,0 +1,22 @@
+.forum-xsq .content a{display:block;width:25%;float:left;padding-bottom:20px}
+.forum-xsq .content a span{display:block;height:50px;width:50px;margin:10px auto;border-radius:50%;line-height:50px;font-size:25px;color:#fff;text-align:center;background:#ff0}
+.forum-xsq .content a p{text-align:center}
+.forum-xsq .content a .bg1{background:#ed5565}
+.forum-xsq .content a .bg2{background:#ffce54}
+.forum-xsq .content a .bg3{background:#48cfad}
+.forum-xsq .content a .bg4{background:#5d9cec}
+.forum-xsq .content a .bg5{background:#ac92ec}
+.forum-xsq .content a .bg6{background:#fc6e51}
+.forum-xsq .content a .bg7{background:#a0d468}
+.forum-xsq .content a .bg8{background:#5db4ec}
+.forum-xsq .hot{line-height:45px;background:#f2f2f2}
+.forum-xsq .hot span{padding-left:22px}
+.forum-xsq .hot a{float:right;padding-right:20px;text-decoration:none}
+.forum-xsq .story{padding:15px 20px}
+.forum-xsq .story .issue li{padding:15px 0;line-height:25px;border-bottom:1px dashed #a5a5a5}
+.forum-xsq .story .issue li span{display:block;display:inline-block;margin-right:9px;width:25px;height:25px;text-align:center;color:#fff;border-radius:50%;background:#ed5565}
+.forum-xsq .story .issue li a{color:#a5a5a5}
+.forum-xsq .story .issue li:last-child{border:0}
+.forum-xsq .share{position:fixed;right:0;bottom:20%;width:131px;height:75px;border:1px solid #a5a5a5}
+.forum-xsq .share ul li{height:41px;line-height:41px;padding-left:15px}
+.forum-xsq .share ul li:nth-child(1){background:#a5a5a5}

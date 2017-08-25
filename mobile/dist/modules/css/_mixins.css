@@ -1,0 +1,57 @@
+//省略号
+@mixin ellipsis ($num){// white-space:nowrap;//1行
+overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:$num;//3行
+-webkit-box-orient:vertical}
+//border:1px
+@mixin border1px($color){position:relative;&:after{position:absolute;left:0;bottom:0;width:100%;height:1px;background:$color;content:''}}
+// User-select
+@mixin user-select($select){-webkit-user-select:$select;-moz-user-select:$select;-ms-user-select:$select;// IE10+
+user-select:$select}
+// Clearfix
+@mixin clearfix(){&:before,&:after{content:" ";// 1
+display:table;// 2}
+&:after{clear:both}}
+// Center-block
+@mixin center-block(){display:block;margin-left:auto;margin-right:auto}
+// Box-shadow
+@mixin box-shadow($shadow){-webkit-box-shadow:$shadow;// iOS <4.3 & Android <4.1
+box-shadow:$shadow}
+// Box sizing
+@mixin box-sizing($boxmodel){-webkit-box-sizing:$boxmodel;-moz-box-sizing:$boxmodel;box-sizing:$boxmodel}
+// Text overflow
+@mixin text-overflow(){overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+// Text-justify
+@mixin text-justify(){text-align:justify;text-justify:inter-ideograph;//IE支持属性}
+// Text hide
+@mixin text-hide(){font:"0/0" a;color:transparent;text-shadow:none;background-color:transparent;border:0}
+// Placeholder text
+@mixin placeholder($color:$input-color-placeholder){// Firefox
+&::-moz-placeholder{color:$color;opacity:1;// Override Firefox's unusual default opacity;see https://github.com/twbs/bootstrap/pull/11526}
+&:-ms-input-placeholder{color:$color}// Internet Explorer 10+
+&::-webkit-input-placeholder{color:$color}// Safari and Chrome}
+// Forms
+@mixin form-control-focus($color:$input-border-focus){&:focus{border-color:$color;outline:0}}
+@mixin button-variant($color,$background,$border){color:$color;background-color:$background;border-color:$border;&:focus,&.focus{color:$color;background-color:darken($background,10%);border-color:darken($border,25%)}
+&:hover{color:$color;background-color:darken($background,10%);border-color:darken($border,12%)}
+&:active,&.active,.open>.dropdown-toggle{color:$color;background-color:darken($background,10%);border-color:darken($border,12%);&:hover,&:focus,&.focus{color:$color;background-color:darken($background,17%);border-color:darken($border,25%)}}
+&:active,&.active,.open>.dropdown-toggle{background-image:none}
+&.disabled,&[disabled],fieldset[disabled]{&,&:hover,&:focus,&.focus,&:active,&.active{background-color:$background;border-color:$border}}}
+// Single side border-radius
+@mixin border-top-radius($radius){border-top-right-radius:$radius;border-top-left-radius:$radius}
+@mixin border-right-radius($radius){border-bottom-right-radius:$radius;border-top-right-radius:$radius}
+@mixin border-bottom-radius($radius){border-bottom-right-radius:$radius;border-bottom-left-radius:$radius}
+@mixin border-left-radius($radius){border-bottom-left-radius:$radius;border-top-left-radius:$radius}
+// Transitions
+@mixin transition($transition){-webkit-transition:$transition;-o-transition:$transition;transition:$transition}
+// Transform
+@mixin transform($transform){-webkit-transform:$transform;-ms-transform:$transform;-o-transform:$transform;transform:$transform}
+// Responsive utilities
+@mixin responsive-visibility(){display:block!important;table{display:table!important}
+tr{display:table-row!important}
+th,td{display:table-cell!important}}
+@mixin responsive-invisibility(){display:none!important}
+@mixin opacity($opacity){opacity:$opacity;// IE8 filter
+$opacity-ie:($opacity * 100)}
+// Alert
+@mixin alert-variant($background,$border,$body-color){background-color:$background;border-color:$border;color:$body-color;hr{border-top-color:darken($border,5%)}
+.alert-link{color:darken($body-color,10%)}}

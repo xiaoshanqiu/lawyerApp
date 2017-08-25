@@ -1,26 +1,28 @@
 @import "variables.scss";
 @import "mixins.scss";
 
-.swiper-container{
-	width: 100vw;
-	height: 100vh;
-	.swiper-slide{
-		position: relative;
-		img{
-			width: 100%;
-		}
-		.use{
-			display:block;
-			width: 80px;
-			line-height: 40px;
-			position: absolute;
-			left: 50%;
-			top: 85%;
-			margin-left: -40px;
-			text-align: center;
-			border-radius: 15px;
-			text-decoration: none;
-			border: 1px solid #bababa;
+.banner{
+	.swiper-container{
+		width: 100vw;
+		height: 100vh;
+		.swiper-slide{
+			position: relative;
+			img{
+				width: 100%;
+			}
+			.use{
+				display:block;
+				width: 80px;
+				line-height: 40px;
+				position: absolute;
+				left: 50%;
+				top: 85%;
+				margin-left: -40px;
+				text-align: center;
+				border-radius: 15px;
+				text-decoration: none;
+				border: 1px solid #bababa;
+			}
 		}
 	}
 }

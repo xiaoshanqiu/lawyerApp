@@ -1,0 +1,24 @@
+.submit-xsq .question{padding:12px 25px 0;border-bottom:1px solid #ddd}
+.submit-xsq .question .questions{padding-bottom:12px;border-bottom:1px dashed #ddd}
+.submit-xsq .question .questions .num-img span{display:inline-block}
+.submit-xsq .question .questions .num-img .imgs{height:30px;width:30px;line-height:30px;border-radius:50%;font-size:15px;text-align:center;color:#fff;background-color:#3a5fd2}
+.submit-xsq .question .questions .num-img .num{color:#7e96e0}
+.submit-xsq .question .questions .ask{margin-top:10px;line-height:20px}
+.submit-xsq .question .questions .ask p{margin-top:7px;line-height:16px;color:#7b7b7b}
+.submit-xsq .question .questions .text{display:inline-block;margin-top:10px;padding:3px 14px;line-height:20px;border-radius:10px;color:#ee9844;border:1px solid #ee9844}
+.submit-xsq .question .second span{line-height:38px;color:#7b7b7b}
+.submit-xsq .question .second span i{font-size:14px;margin-right:2px}
+.submit-xsq .question .second .spa1{margin-left:12px}
+.submit-xsq .question .second .spa2{margin-left:25px}
+.submit-xsq .answer{padding:12px 25px 0}
+.submit-xsq .answer .num-img span{display:inline-block;vertical-align:top}
+.submit-xsq .answer .num-img .imgs{height:30px;width:30px;line-height:30px;border-radius:50%;overflow:hidden}
+.submit-xsq .answer .num-img .imgs img{width:100%}
+.submit-xsq .answer .num-img .name{font-size:15px;margin-left:10px;margin-top:5px}
+.submit-xsq .answer .num-img .heart{padding:5px 8px;font-size:13px;border-radius:2px;color:#fff;background-color:#ef4630}
+.submit-xsq .answer p{margin-top:7px;padding-bottom:13px;line-height:20px;color:#7b7b7b;border-bottom:1px dashed #ddd}
+.submit-xsq .answer p a{color:#ee9844}
+.submit-xsq .answer .second span{line-height:38px;color:#7b7b7b}
+.submit-xsq .answer .second span i{font-size:14px;margin-right:2px}
+.submit-xsq .answer .second .spa1{margin-left:12px}
+.submit-xsq .answer .second .spa2{margin-left:25px}

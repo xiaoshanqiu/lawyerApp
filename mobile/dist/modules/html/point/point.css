@@ -1,0 +1,18 @@
+.point-xsq .side{width:25%;background:#f7f7f7}
+.point-xsq .side li{line-height:45px;border-top:1px solid #ddd;text-align:center}
+.point-xsq .all-card{width:75%;height:100px}
+.point-xsq .all-card .cont{width:95%;margin:0 auto}
+.point-xsq .all-card .cont ul{margin:7px auto;margin-left:12px;overflow:hidden}
+.point-xsq .all-card .cont li{line-height:30px;width:31%;float:left;margin-right:5px;background:#f7f7f7;text-align:center}
+.point-xsq .all-card .cont li:nth-child(1){background:orange}
+.point-xsq .all-card .cont .person{border:1px solid #ddd;padding-top:5px;padding-left:10px}
+.point-xsq .all-card .cont .person .head{height:60px;width:60px}
+.point-xsq .all-card .cont .person .head img{width:100%;border-radius:50%}
+.point-xsq .all-card .cont .person .mess{margin-left:15px;font-size:14px}
+.point-xsq .all-card .cont .person .year{line-height:30px}
+.point-xsq .all-card .cont .person .long{margin-bottom:7px;padding:5px 0}
+.point-xsq .all-card .cont .person .long .oran{color:#ea7e15;padding:5px;border:1px solid #ea7e15}
+.point-xsq .all-card .cont .help{padding:5px 4px 5px 12px;margin-bottom:10px;border-bottom:1px solid #ddd;border-left:1px solid #ddd;border-right:1px solid #ddd}
+.point-xsq .all-card .cont .help span{line-height:30px}
+.point-xsq .all-card .cont .help p{line-height:30px;width:90px;border-radius:5px;text-align:center;background:#ea7e15}
+.point-xsq .all-card .cont .help p a{color:#fff}

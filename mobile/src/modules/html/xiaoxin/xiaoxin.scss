@@ -2,90 +2,92 @@
 @import "mixins.scss";
 
 
-.message{
-	padding: 18px 12px;
-	.head{
-		height: 80px;
-		width: 80px;
-		img{
-			width: 100%;
-			border-radius: 50%;
-		}
-	}
-	.mess{
-		margin-left: 17px;
-		.five{
-			padding: 2px 5px;
-			border-radius: 6px;
-			margin-left: 10px;
-			color: $white;
-			background: #ef4630;
-		}
-		.long{
-			margin: 7px 0;
-			padding: 5px 0;
-			.oran{
-				color: #ea7e15;
-				padding: 5px 5px;
-				border: 1px solid #ea7e15;
+.xiaomi-xsq{
+	.message{
+		padding: 18px 12px;
+		.head{
+			height: 80px;
+			width: 80px;
+			img{
+				width: 100%;
+				border-radius: 50%;
 			}
 		}
-		p{
-			line-height: 30px;
+		.mess{
+			margin-left: 17px;
+			.five{
+				padding: 2px 5px;
+				border-radius: 6px;
+				margin-left: 10px;
+				color: $white;
+				background: #ef4630;
+			}
+			.long{
+				margin: 7px 0;
+				padding: 5px 0;
+				.oran{
+					color: #ea7e15;
+					padding: 5px 5px;
+					border: 1px solid #ea7e15;
+				}
+			}
+			p{
+				line-height: 30px;
+			}
 		}
 	}
-}
 
-.introduce{
-	overflow: hidden;
-	background: #f7f7f7;
-	.good{
-		padding: 10px 0;
-		margin: 10px 0;
-		background: $white;
-		li{
-			float: left;
-			width: 33%;
-			text-align: center;
-			border-right: 1px solid #ddd;
-			&:nth-child(3){
-				border: none;
+	.introduce{
+		overflow: hidden;
+		background: #f7f7f7;
+		.good{
+			padding: 10px 0;
+			margin: 10px 0;
+			background: $white;
+			li{
+				float: left;
+				width: 33%;
+				text-align: center;
+				border-right: 1px solid #ddd;
+				&:nth-child(3){
+					border: none;
+				}
+				span{
+					color:#e53f1f;
+				}
 			}
+		}
+		.expertise{
+			padding: 10px 12px;
+			margin-bottom: 10px;
+			background: $white;
 			span{
-				color:#e53f1f;
+				display: block;
+				line-height: 25px;
+				text-align: center;
+				color: #e9821c;
+			}
+			p{
+				padding: 0 15px;
+				font-size: 12px;
+				line-height: 20px;
+			}
+			a{
+				display: block;
+				line-height: 25px;
+				font-size: 12px;
+				text-align: center;
 			}
 		}
-	}
-	.expertise{
-		padding: 10px 12px;
-		margin-bottom: 10px;
-		background: $white;
-		span{
+		.start{
 			display: block;
-			line-height: 25px;
+			width: 90%;
+			line-height: 43px;
+			margin: 43px auto;
+			border-radius: 5px;
 			text-align: center;
-			color: #e9821c;
+			color: $white;
+			background: $brand;
 		}
-		p{
-			padding: 0 15px;
-			font-size: 12px;
-			line-height: 20px;
-		}
-		a{
-			display: block;
-			line-height: 25px;
-			font-size: 12px;
-			text-align: center;
-		}
-	}
-	.start{
-		display: block;
-		width: 90%;
-		line-height: 43px;
-		margin: 43px auto;
-		border-radius: 5px;
-		text-align: center;
-		color: $white;
-		background: $brand;
 	}
 }

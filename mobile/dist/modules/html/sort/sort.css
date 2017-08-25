@@ -1,0 +1,7 @@
+.sort-xsq .sort-list{background-color:pink}
+.sort-xsq .sort-list ul{min-width:300px;background-color:#f8f8f8}
+.sort-xsq .sort-list ul li{float:left;width:33.1%;text-align:center;border-bottom:1px solid #ddd;border-right:1px solid #ddd}
+.sort-xsq .sort-list ul li:last-child{border-right:0}
+.sort-xsq .sort-list ul li a{display:block;padding:25px 0;width:100%;background-color:#f8f8f8}
+.sort-xsq .sort-list ul li a p{font-size:15px;font-weight:700}
+.sort-xsq .sort-list ul li a span{font-size:14px;line-height:25px}

@@ -1,0 +1,18 @@
+.xiaomi-xsq .message{padding:18px 12px}
+.xiaomi-xsq .message .head{height:80px;width:80px}
+.xiaomi-xsq .message .head img{width:100%;border-radius:50%}
+.xiaomi-xsq .message .mess{margin-left:17px}
+.xiaomi-xsq .message .mess .five{padding:2px 5px;border-radius:6px;margin-left:10px;color:#fff;background:#ef4630}
+.xiaomi-xsq .message .mess .long{margin:7px 0;padding:5px 0}
+.xiaomi-xsq .message .mess .long .oran{color:#ea7e15;padding:5px;border:1px solid #ea7e15}
+.xiaomi-xsq .message .mess p{line-height:30px}
+.xiaomi-xsq .introduce{overflow:hidden;background:#f7f7f7}
+.xiaomi-xsq .introduce .good{padding:10px 0;margin:10px 0;background:#fff}
+.xiaomi-xsq .introduce .good li{float:left;width:33%;text-align:center;border-right:1px solid #ddd}
+.xiaomi-xsq .introduce .good li:nth-child(3){border:0}
+.xiaomi-xsq .introduce .good li span{color:#e53f1f}
+.xiaomi-xsq .introduce .expertise{padding:10px 12px;margin-bottom:10px;background:#fff}
+.xiaomi-xsq .introduce .expertise span{display:block;line-height:25px;text-align:center;color:#e9821c}
+.xiaomi-xsq .introduce .expertise p{padding:0 15px;font-size:12px;line-height:20px}
+.xiaomi-xsq .introduce .expertise a{display:block;line-height:25px;font-size:12px;text-align:center}
+.xiaomi-xsq .introduce .start{display:block;width:90%;line-height:43px;margin:43px auto;border-radius:5px;text-align:center;color:#fff;background:#3A5FD2}

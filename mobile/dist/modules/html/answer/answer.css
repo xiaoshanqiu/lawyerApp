@@ -1,0 +1,22 @@
+.answer-wrapper .question{padding:12px 25px 0}
+.answer-wrapper .question .questions{padding-bottom:12px;border-bottom:1px dashed #ddd}
+.answer-wrapper .question .questions .num-img span{display:inline-block}
+.answer-wrapper .question .questions .num-img .imgs{height:30px;width:30px;line-height:30px;border-radius:50%;font-size:15px;text-align:center;color:#fff;background-color:#3a5fd2}
+.answer-wrapper .question .questions .num-img .num{color:#7e96e0}
+.answer-wrapper .question .questions .ask{margin-top:10px;line-height:20px}
+.answer-wrapper .question .questions .ask p{margin-top:7px;line-height:16px;color:#7b7b7b}
+.answer-wrapper .question .questions .text{display:inline-block;margin-top:10px;padding:3px 14px;line-height:20px;border-radius:10px;color:#5e7cda;background-color:#edf0fa}
+.answer-wrapper .question .second span{color:#7b7b7b}
+.answer-wrapper .question .second span i{font-size:14px;margin-right:2px}
+.answer-wrapper .question .second span .icon-dianzan{color:#ef4630}
+.answer-wrapper .question .second .spa1{line-height:38px;margin-left:12px}
+.answer-wrapper .question .second .spa2{margin-left:25px;line-height:38px;color:#ef4630}
+.answer-wrapper .question .second .heart{margin-top:8px;padding:5px 8px;font-size:13px;border-radius:2px;color:#fff;background-color:#ef4630}
+.answer-wrapper .answer{padding:12px 25px 20px;margin-top:8px}
+.answer-wrapper .answer .num-img{margin-top:17px}
+.answer-wrapper .answer .num-img span{display:inline-block;vertical-align:top}
+.answer-wrapper .answer .num-img .imgs{height:30px;width:30px;line-height:30px;border-radius:50%;overflow:hidden}
+.answer-wrapper .answer .num-img .imgs img{width:100%}
+.answer-wrapper .answer .num-img .name{font-size:15px;margin-left:10px;margin-top:5px}
+.answer-wrapper .answer p{margin-top:7px;padding-bottom:13px;line-height:20px;color:#7b7b7b;border-bottom:1px dashed #ddd}
+.answer-wrapper .answer p a{color:#a3b4ea}

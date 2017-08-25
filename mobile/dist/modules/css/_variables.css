@@ -1,0 +1,27 @@
+//Colors
+$gray-base:#585858;$gray-dark:#333;$gray-light:#888;$gray-lighter:#eee;$light:#f4f4f4;$white:#fff;$brand:#3A5FD2;$brand-yellow:#FA7700;$brand-red:#FF1B00;$brand-green:#00CFA1;$body-bg:#f5f5f5;$module-padding:15px;$module-margin:$module-padding;$text-color:$gray-base;$link-color:$gray-base;$link-hover-color:$brand;//Typography
+$font-family-sans-serif:"Tahoma","Helvetica Neue","Lantinghei SC",Arial,"Microsoft Yahei","Hiragino Sans GB",STXihei,Helvetica,sans-serif;$font-family-monospace:Menlo,Monaco,Consolas,"Courier New",monospace;$font-family-SHK:"KaiGenGothicTW-Bold";$font-family-num:Impact;$font-family-more:"Hiragino Sans GB","SimSun";$font-family-base:$font-family-sans-serif;$font-size-base:14px;$font-size-large:ceil(($font-size-base * 1.1));// ~16px;$font-size-small:ceil(($font-size-base * .85));// ~12px
+$font-size-h1:floor(($font-size-base * 2.6));// ~36px
+$font-size-h2:floor(($font-size-base * 2.15));// ~30px
+$font-size-h3:ceil(($font-size-base * 1.7));// ~24px
+$font-size-h4:ceil(($font-size-base * 1.25));// ~18px
+$font-size-h5:$font-size-base;$font-size-h6:ceil(($font-size-base * .85));// ~12px
+$font-weight-small:100;$font-weight-bold:700;$line-height-base:1.428571429;// 20/14
+$line-height-large:28px;$line-height-computed:floor(($font-size-base * $line-height-base));// ~20px
+//z-index
+$nav-mobile-zindex:1000;$zindex-modal-bg:1040;$zindex-modal:1050;//Icon
+$icon-font-path:"../../fonts/";$icon-font-name:"iconfont";$icon-font-svg-id:$icon-font-name;//Components
+$padding:0 12px;$padding-base-vertical:6px;$padding-base-horizontal:12px;$padding-large-vertical:10px;$padding-large-horizontal:15px;$padding-small-vertical:5px;$padding-small-horizontal:10px;$border-radius-base:5px;$border-radius-large:6px;$border-radius-small:4px;$component-active-color:#fff;$body-width:1200px;$index-section-width:850px;$index-aside-width:330px;//Buttons
+$btn-font-weight:400;$btn-default-color:$link-color;$btn-default-bg:transparent;$btn-default-border:#ccc;// Form
+$input-bg:#fff;$input-color:$gray-base;$input-border:$gray-lighter;$input-border-radius:$border-radius-small;//** Border color for inputs on focus
+$input-border-focus:$brand;//** Placeholder text color
+$input-color-placeholder:#b2c6cd;$input-bg-disabled:$gray-lighter;$cursor-disabled:not-allowed;$input-height-base:($line-height-computed+($padding-small-vertical * 2));$legend-color:$gray-dark;$legend-border-color:#e5e5e5;// Table
+$table-bg:transparent;$table-cell-padding:8px;$table-condensed-cell-padding:5px;$table-bg-accent:#f9f9f9;$table-bg-hover:#fafafa;$table-td-border-color:#f4f4f4;$table-bg-active:$table-bg-hover;$table-border-color:$gray-lighter;//Pagination
+$pagination-margin:5px;$pagination-border-color:#d6e1e5;$disabled-border-color:$light;$disabled-background:transparent;$disabled-color:#aaa;// Media queries breakpoints form bootstrap
+//** Extra small screen / phone
+$screen-phone:480px;//** Small screen / tablet
+$screen-tablet:768px;//** Medium screen / desktop
+$screen-desktop:992px;//** Large screen / wide desktop
+$screen-lg-desktop:1200px;$screen-phone-max:($screen-tablet - 1);$screen-tablet-max:($screen-desktop - 1);$screen-desktop-max:($screen-lg-desktop - 1);// Mobile
+$navbar-height:44px;$nav-control-height:$navbar-height;$nav-control-width:$nav-control-height;// Modal
+$modal-inner-padding:15px;$modal-title-padding:15px;$modal-title-line-height:$line-height-base;$modal-content-bg:#fff;$modal-content-border-color:$gray-lighter;$modal-content-fallback-border-color:#999;$modal-backdrop-bg:#000;$modal-backdrop-opacity:.5;$modal-header-border-color:#e5e5e5;$modal-footer-border-color:$modal-header-border-color;$state-success-text:#3c763d!default;$state-success-bg:#dff0d8!default;$state-success-border:darken($state-success-bg,5%)!default;$state-info-text:#31708f!default;$state-info-bg:#d9edf7!default;$state-info-border:darken($state-info-bg,7%)!default;$state-warning-text:#8a6d3b!default;$state-warning-bg:#fcf8e3!default;$state-warning-border:darken($state-warning-bg,5%)!default;$state-danger-text:#a94442!default;$state-danger-bg:#f2dede!default;$state-danger-border:darken($state-danger-bg,5%)!default;$alert-padding:15px!default;$alert-border-radius:$border-radius-small!default;$alert-link-font-weight:700!default;$alert-border-width:1px!default;$alert-success-bg:$state-success-bg!default;$alert-success-text:$state-success-text!default;$alert-success-border:$state-success-border!default;$alert-info-bg:$state-info-bg!default;$alert-info-text:$state-info-text!default;$alert-info-border:$state-info-border!default;$alert-warning-bg:$state-warning-bg!default;$alert-warning-text:$state-warning-text!default;$alert-warning-border:$state-warning-border!default;$alert-danger-bg:$state-danger-bg!default;$alert-danger-text:$state-danger-text!default;$alert-danger-border:$state-danger-border!default;

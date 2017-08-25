@@ -1,143 +1,146 @@
 @import "variables.scss";
 @import "mixins.scss";
 
-.search{
-	background: $brand;
-	.content{
-		padding: 24px 12px;
-		position: relative;
-		.txt{
-			background: $white;
-			border-radius: 4px;
-			input{
-				padding: 12px;
-				margin-left: 10px;
-				width: 80%;
-				border: none;
-				outline: none;
-			}
-		}
-		i{
-			color: #000;
-			position: absolute;
-			right: 20px;
-			top: 35px;
-		}
- 		.hot{
-	 		line-height: 36px;
-	 		span{
-	 			color: $white;
-	 			float: left;
-	 			font-size: 13px;
-	 			margin-left: 24px;
-	 		}
-	 		li{
-	 			float: left;
-	 			padding: 0 11px;
-	 			a{
-	 				border-bottom: 1px solid #fff;	
-	 				color: $white;
-	 				font-size: 13px;
-	 			}
-	 		}
-		
-	 	}
-	}
-}
 
-.servers{
-		padding: 0 2px 30px;
-		background: $white;
-		ul{
-			min-width: 300px;
-		}
-		ul li{
-			box-sizing: border-box;
-			float: left;
-			margin-top: 15px;
-			padding:0 10px;
-			width: 33.33%;
-			text-align: center;
-		}
-		a{
-			padding: 10px 0;
-			background: #f8f8f8;
-			display: block;
-		}
-		.bg{
-			display: inline-block;
-			width: 50px;
-			height: 50px;
-			border-radius: 50%;
-			background: #3fafee;
-			i{
-				color: $white;
-				font-size: 30px;
-				line-height: 50px;
+.search-xsq{
+	.search{
+		background: $brand;
+		.content{
+			padding: 24px 12px;
+			position: relative;
+			.txt{
+				background: $white;
+				border-radius: 4px;
+				input{
+					padding: 12px;
+					margin-left: 10px;
+					width: 80%;
+					border: none;
+					outline: none;
+				}
 			}
+			i{
+				color: #000;
+				position: absolute;
+				right: 20px;
+				top: 35px;
+			}
+	 		.hot{
+		 		line-height: 36px;
+		 		span{
+		 			color: $white;
+		 			float: left;
+		 			font-size: 13px;
+		 			margin-left: 24px;
+		 		}
+		 		li{
+		 			float: left;
+		 			padding: 0 11px;
+		 			a{
+		 				border-bottom: 1px solid #fff;	
+		 				color: $white;
+		 				font-size: 13px;
+		 			}
+		 		}
+			
+		 	}
 		}
-		span{
-			display: block;
-			margin-top: 9px;
-		}
-		.type2{
-			background:#ef6189; 
-		}
-		.type3{
-			background:#ffa11a; 
-		}
-		.type4{
-			background:#b8ed64; 
-		}
-		.type5{
-			background:#3ad4cb; 
-		}
-		.type6{
-			background:#ff6363; 
-		}
-		.type7{
-			background:#d570f2; 
-		}
-		.type8{
-			background:#f5dc68; 
-		}
-		.type9{
-			background:#55e27d; 
-		}
-		.type10{
-			background:#ffa11a; 
-		}
-		.type11{
-			background:#3fafee; 
-		}
-		.type12{
-			background:#ef6189; 
-		}
-		.type13{
-			background:#b8ed64; 
-		}
-		.type14{
-			background:#3ad4cb; 
-		}
-		.type15{
-			background:#f5dc68; 
-		}
-		.type16{
-			background:#55e27d; 
-		}
-		.type17{
-			background:#d570f2; 
-		}
-		.type18{
-			background:#ff6363; 
-		}
-		.type19{
-			background:#ffa11a; 
-		}
-		.type20{
-			background:#ef6189; 
-		}
-		.type21{
-			background:#3fafee; 
-		}
+	}
+
+	.servers{
+			padding: 0 2px 30px;
+			background: $white;
+			ul{
+				min-width: 300px;
+			}
+			ul li{
+				box-sizing: border-box;
+				float: left;
+				margin-top: 15px;
+				padding:0 10px;
+				width: 33.33%;
+				text-align: center;
+			}
+			a{
+				padding: 10px 0;
+				background: #f8f8f8;
+				display: block;
+			}
+			.bg{
+				display: inline-block;
+				width: 50px;
+				height: 50px;
+				border-radius: 50%;
+				background: #3fafee;
+				i{
+					color: $white;
+					font-size: 30px;
+					line-height: 50px;
+				}
+			}
+			span{
+				display: block;
+				margin-top: 9px;
+			}
+			.type2{
+				background:#ef6189; 
+			}
+			.type3{
+				background:#ffa11a; 
+			}
+			.type4{
+				background:#b8ed64; 
+			}
+			.type5{
+				background:#3ad4cb; 
+			}
+			.type6{
+				background:#ff6363; 
+			}
+			.type7{
+				background:#d570f2; 
+			}
+			.type8{
+				background:#f5dc68; 
+			}
+			.type9{
+				background:#55e27d; 
+			}
+			.type10{
+				background:#ffa11a; 
+			}
+			.type11{
+				background:#3fafee; 
+			}
+			.type12{
+				background:#ef6189; 
+			}
+			.type13{
+				background:#b8ed64; 
+			}
+			.type14{
+				background:#3ad4cb; 
+			}
+			.type15{
+				background:#f5dc68; 
+			}
+			.type16{
+				background:#55e27d; 
+			}
+			.type17{
+				background:#d570f2; 
+			}
+			.type18{
+				background:#ff6363; 
+			}
+			.type19{
+				background:#ffa11a; 
+			}
+			.type20{
+				background:#ef6189; 
+			}
+			.type21{
+				background:#3fafee; 
+			}
+	}
 }

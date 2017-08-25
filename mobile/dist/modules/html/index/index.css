@@ -1,0 +1,15 @@
+body{background:#f8f8f8}
+.index .content{width:100%;background:#fff}
+.index .content li{padding:25px 12px 0}
+.index .content li .border1px{position:relative}
+.index .content li .border1px:after{position:absolute;left:0;bottom:0;width:100%;height:1px;background:#ddd;content:''}
+.index .content li .border1px a{padding-bottom:25px;display:block}
+.index .content li .border1px a:last-child:after{display:none}
+.index .content li .border1px a .all-spa{padding-left:40px;margin-left:12px;margin-right:26px}
+.index .content li .border1px a .all-spa .spa1{font-size:18px}
+.index .content li .border1px a h2{position:absolute;right:12px;top:-8px}
+.index .content li .border1px a .iconfont{font-size:33px;margin-left:12px}
+.index .content li .border1px a .icon1{color:#f18c48}
+.index .content li .border1px a .icon2{color:#9aee46}
+.index .content li .border1px a .icon3{color:#eb5748}
+.index .content li .border1px a .icon4{color:#49b4f1}

@@ -1,0 +1,23 @@
+.details-xiaoshanqiu .case{padding:15px 12px;border-bottom:1px solid #ddd}
+.details-xiaoshanqiu .case .title{line-height:25px;font-size:15px;font-weight:700}
+.details-xiaoshanqiu .case .title i{font-size:15px;color:#3d62d1}
+.details-xiaoshanqiu .case .content{line-height:25px;font-size:14px;text-indent:2em}
+.details-xiaoshanqiu .case .time span{display:inline-block;line-height:25px;font-size:10px;color:#b0b0b0}
+.details-xiaoshanqiu .case .time span i{margin-right:7px;font-size:10px}
+.details-xiaoshanqiu .case .time .spa1{margin-left:18px}
+.details-xiaoshanqiu .explain{background-color:#f8f8f8;padding:0 12px 20px}
+.details-xiaoshanqiu .explain .explain-content{display:flex;padding:7px 0 12px;border-bottom:1px solid #aaa}
+.details-xiaoshanqiu .explain .explain-content .pic{flex:0 0 40px;border-radius:50%}
+.details-xiaoshanqiu .explain .explain-content .pic img{width:100%;border-radius:50%}
+.details-xiaoshanqiu .explain .explain-content .content{flex:1}
+.details-xiaoshanqiu .explain .explain-content .content span{line-height:25px}
+.details-xiaoshanqiu .explain .explain-content .content .pull-left{font-size:15px;text-indent:13px;font-weight:700}
+.details-xiaoshanqiu .explain .explain-content .content .pull-right{color:#bababa}
+.details-xiaoshanqiu .explain .explain-content .content p{font-size:12px;line-height:20px;text-indent:5px;letter-spacing:1px}
+.details-xiaoshanqiu .explain .explain-content .content p i{font-size:15px;color:#ea7e15}
+.details-xiaoshanqiu .explain .explain-content .content .end{margin-top:10px}
+.details-xiaoshanqiu .explain .explain-content .content .end .good{display:inline-block;padding:8px;border-radius:2px;color:#fff;line-height:24px;background-color:#5cc79e}
+.details-xiaoshanqiu .explain .explain-content .content .end .good i{margin-right:5px;line-height:15px;color:#fff}
+.details-xiaoshanqiu .explain .explain-content .content .end .pull-right{display:inline-block;line-height:40px;font-size:10px;color:#b0b0b0}
+.details-xiaoshanqiu .explain .explain-content .content .end .pull-right i{margin-right:7px;font-size:10px}
+.details-xiaoshanqiu .explain .explain-content .content .end .spa1{margin-left:18px}

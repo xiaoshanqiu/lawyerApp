@@ -1,21 +1,23 @@
 @import "variables.scss";
 @import "mixins.scss";
 
-.content{
-	height: 100vh;
-	overflow: hidden;
-	// background-color: pink;
-	background-color: #f8f8f8;
-	li{
-		margin-top: 10px;
-		background-color: #fff;
-		a{
-			padding: 0 12px;
-			display: block;
-		}
-		span{
-			line-height: 44px;
-			font-size: 15px;
+.criminal{
+	.content{
+		height: 100vh;
+		overflow: hidden;
+		// background-color: pink;
+		background-color: #f8f8f8;
+		li{
+			margin-top: 10px;
+			background-color: #fff;
+			a{
+				padding: 0 12px;
+				display: block;
+			}
+			span{
+				line-height: 44px;
+				font-size: 15px;
+			}
 		}
 	}
 }

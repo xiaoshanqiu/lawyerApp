@@ -1,0 +1,36 @@
+.search-xsq .search{background:#3A5FD2}
+.search-xsq .search .content{padding:24px 12px;position:relative}
+.search-xsq .search .content .txt{background:#fff;border-radius:4px}
+.search-xsq .search .content .txt input{padding:12px;margin-left:10px;width:80%;border:0;outline:0}
+.search-xsq .search .content i{color:#000;position:absolute;right:20px;top:35px}
+.search-xsq .search .content .hot{line-height:36px}
+.search-xsq .search .content .hot span{color:#fff;float:left;font-size:13px;margin-left:24px}
+.search-xsq .search .content .hot li{float:left;padding:0 11px}
+.search-xsq .search .content .hot li a{border-bottom:1px solid #fff;color:#fff;font-size:13px}
+.search-xsq .servers{padding:0 2px 30px;background:#fff}
+.search-xsq .servers ul{min-width:300px}
+.search-xsq .servers ul li{box-sizing:border-box;float:left;margin-top:15px;padding:0 10px;width:33.33%;text-align:center}
+.search-xsq .servers a{padding:10px 0;background:#f8f8f8;display:block}
+.search-xsq .servers .bg{display:inline-block;width:50px;height:50px;border-radius:50%;background:#3fafee}
+.search-xsq .servers .bg i{color:#fff;font-size:30px;line-height:50px}
+.search-xsq .servers span{display:block;margin-top:9px}
+.search-xsq .servers .type2{background:#ef6189}
+.search-xsq .servers .type3{background:#ffa11a}
+.search-xsq .servers .type4{background:#b8ed64}
+.search-xsq .servers .type5{background:#3ad4cb}
+.search-xsq .servers .type6{background:#ff6363}
+.search-xsq .servers .type7{background:#d570f2}
+.search-xsq .servers .type8{background:#f5dc68}
+.search-xsq .servers .type9{background:#55e27d}
+.search-xsq .servers .type10{background:#ffa11a}
+.search-xsq .servers .type11{background:#3fafee}
+.search-xsq .servers .type12{background:#ef6189}
+.search-xsq .servers .type13{background:#b8ed64}
+.search-xsq .servers .type14{background:#3ad4cb}
+.search-xsq .servers .type15{background:#f5dc68}
+.search-xsq .servers .type16{background:#55e27d}
+.search-xsq .servers .type17{background:#d570f2}
+.search-xsq .servers .type18{background:#ff6363}
+.search-xsq .servers .type19{background:#ffa11a}
+.search-xsq .servers .type20{background:#ef6189}
+.search-xsq .servers .type21{background:#3fafee}
